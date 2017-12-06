@@ -2,16 +2,19 @@
 
 <script type="text/javascript">
 
+      function pulaLinha() {
+          document.write("<br>");
+      }
+
       var ano = 2017;
-      var pulaLinha = "<br><br><br>";
 
       document.write("Silvio nasceu em: "   +(ano - 31));
-      document.write(pulaLinha);
+      pulaLinha();
       document.write("Cristine nasceu em: " +(ano - 29));
 
       ano = 2016;
 
-      document.write(pulaLinha);
+      pulaLinha();
       document.write("Fatima nasceu em: "   +(ano - 64));
 
       var idadeSilvio    = 39;
@@ -19,7 +22,7 @@
       var idadeFatima    = 41;
 
       var media = ((idadeSilvio + idadeCristiane + idadeFatima)/3);
-      document.write(pulaLinha);
+      pulaLinha();
       document.write("A Media das idades é: " + Math.round(media));
 
 </script>
