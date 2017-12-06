@@ -17,11 +17,12 @@
 
         var imc = peso / (altura * altura);
 
-        mostra("O valor do IMC é :"+ Math.round(imc));
+        return Math.round(imc);
 
       }
 
-      calculaImc(75,1.7);
+      var imcCalulado = calculaImc(75,1.7);
 
+      mostra("O Valor do IMC é: "+imcCalulado)
 
 </script>
