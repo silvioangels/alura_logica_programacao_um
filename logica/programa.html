@@ -6,23 +6,17 @@
           document.write("<br>");
       }
 
+      function mostra(frase){
+
+          document.write(frase);
+          pulaLinha();
+
+      }
+
       var ano = 2017;
 
-      document.write("Silvio nasceu em: "   +(ano - 31));
-      pulaLinha();
-      document.write("Cristine nasceu em: " +(ano - 29));
-
-      ano = 2016;
-
-      pulaLinha();
-      document.write("Fatima nasceu em: "   +(ano - 64));
-
-      var idadeSilvio    = 39;
-      var idadeCristiane = 20;
-      var idadeFatima    = 41;
-
-      var media = ((idadeSilvio + idadeCristiane + idadeFatima)/3);
-      pulaLinha();
-      document.write("A Media das idades é: " + Math.round(media));
+      mostra("Silvio nasceu em: "   +(ano - 31));
+      mostra("Cristine nasceu em: " +(ano - 29));
+      mostra("Fatima nasceu em: "   +(ano - 64));
 
 </script>
