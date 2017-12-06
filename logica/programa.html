@@ -13,19 +13,12 @@
 
       }
 
-      function calculaImc(peso, altura){
+      var vitorias = parseInt(prompt("Entre com o numero de vitorias"));
 
-        var imc = peso / (altura * altura);
+      var empates = parseInt(prompt("Entre com o numero de empates"));
 
-        return Math.round(imc);
+      var pontos = (vitorias + 3)+ empates;
 
-      }
-
-      var peso = prompt("Informe seu peso:");
-      var altura = prompt("Informe sua Altura:");
-
-      var imcCalulado = calculaImc(peso,altura);
-
-      mostra("O Valor do IMC é: "+imcCalulado)
+      mostra("Os pontos do seu time é de :" + pontos);
 
 </script>
