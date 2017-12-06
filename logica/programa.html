@@ -2,10 +2,23 @@
 
 <script type="text/javascript">
 
-      document.write("Silvio nasceu em: "   +(2017 - 31));
+      var ano = 2017;
+
+      document.write("Silvio nasceu em: "   +(ano - 31));
       document.write("<br>");
-      document.write("Cristine nasceu em: " +(2017 - 29));
+      document.write("Cristine nasceu em: " +(ano - 29));
+
+      ano = 2016;
+
       document.write("<br>");
-      document.write("Fatima nasceu em: "   +(2017 - 64));
+      document.write("Fatima nasceu em: "   +(ano - 64));
+
+      var idadeSilvio    = 39;
+      var idadeCristiane = 20;
+      var idadeFatima    = 41;
+
+      var media = ((idadeSilvio + idadeCristiane + idadeFatima)/3);
+      document.write("<br>");
+      document.write("A Media das idades é: " + Math.round(media));
 
 </script>
