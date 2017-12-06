@@ -1,0 +1,23 @@
+<input >
+<button type="button" name="button">Compare com meu segredo</button>
+
+<script type="text/javascript">
+
+  var segredo = 5;
+
+  var input = document.querySelector("input");
+
+  function verifica(){
+
+    if(input.value == segredo){
+      alert("Voce acertou");
+    }else {
+      alert("Voce errou");
+    }
+
+  }
+
+  var button = document.querySelector("button");
+  button.onclick = verifica;
+
+</script>
