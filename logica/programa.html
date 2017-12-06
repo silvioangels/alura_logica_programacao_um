@@ -13,10 +13,15 @@
 
       }
 
-      var ano = 2017;
+      function calculaImc(peso, altura){
 
-      mostra("Silvio nasceu em: "   +(ano - 31));
-      mostra("Cristine nasceu em: " +(ano - 29));
-      mostra("Fatima nasceu em: "   +(ano - 64));
+        var imc = peso / (altura * altura);
+
+        mostra("O valor do IMC é :"+ Math.round(imc));
+
+      }
+
+      calculaImc(75,1.7);
+
 
 </script>
